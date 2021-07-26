@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigatio_home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <item android:id="@+id/navigatio_notice"
+        android:icon="@drawable/newspaper"
+        android:title="Notice"/>
+
+    <item android:id="@+id/navigatio_faculty"
+        android:icon="@drawable/group"
+        android:title="Faculty"/>
+
+    <item android:id="@+id/navigatio_gallery"
+        android:icon="@drawable/gallery"
+        android:title="Gallery"/>
+
+    <item android:id="@+id/navigatio_about"
+        android:icon="@drawable/document"
+        android:title="About"/>
+
+
+
+</menu>
