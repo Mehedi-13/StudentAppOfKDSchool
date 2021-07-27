@@ -8,10 +8,12 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.userofkdschool.ebook.EbookActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
@@ -70,8 +72,8 @@ public class UserHomeActivity extends AppCompatActivity implements NavigationVie
                 break;
 
             case R.id.navigation_ebook:
-                Toast.makeText(this, "Ebooks", Toast.LENGTH_SHORT).show();
-                break;
+                    startActivity( new Intent(UserHomeActivity.this, EbookActivity.class));
+                 break;
 
             case R.id.navigation_theme:
                 Toast.makeText(this, "Themes", Toast.LENGTH_SHORT).show();
