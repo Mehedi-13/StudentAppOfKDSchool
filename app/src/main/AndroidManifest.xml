@@ -12,8 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UserOfKDSchool">
-        <activity android:name=".ebook.PdfViwerActivity"></activity>
-        <activity android:name=".ebook.EbookActivity" />
+        <activity android:name=".FullImageView"></activity>
+        <activity android:name=".ebook.PdfViwerActivity" />
+        <activity android:name=".ebook.EbookActivity"
+            android:parentActivityName=".UserHomeActivity"/>
+
+
         <activity android:name=".UserHomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -40,6 +40,29 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/foundationDay"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeer1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
             </LinearLayout>
 
 
@@ -73,6 +96,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/sportsDay"/>
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeer2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
 
             </LinearLayout>
 
@@ -108,6 +154,29 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/culturalDay"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeer3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
             </LinearLayout>
 
 
@@ -142,6 +211,29 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/prizeGivenCeremony"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeer4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
             </LinearLayout>
 
 
@@ -175,6 +267,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/independentDay"/>
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeer5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
 
             </LinearLayout>
 
@@ -210,6 +324,29 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/mourn"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeer6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
             </LinearLayout>
 
 
@@ -244,6 +381,29 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/admissionDay"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeer7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
             </LinearLayout>
 
 
@@ -277,6 +437,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/otherEvents"/>
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeer8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+                        <include layout="@layout/shimer_load_gallery"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
 
             </LinearLayout>
 

@@ -51,14 +51,17 @@ public class EbookAdapter extends RecyclerView.Adapter<EbookAdapter.EbookViewHol
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, list.get(position).getPdfTitle(), Toast.LENGTH_SHORT).show();
-            }
+
+                Intent intent= new Intent(context,PdfViwerActivity.class);
+                intent.putExtra("pdfUrl",list.get(position).getPdfUrl());
+                context.startActivity(intent);
+                 }
         });
         holder.ebookDownload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                //foe Download
+                //for Download
 
                 Intent intent= new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(list.get(position).getPdfUrl()));

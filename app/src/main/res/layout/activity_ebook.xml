@@ -51,6 +51,30 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/classThree"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeerClassThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+
             </LinearLayout>
 
 
@@ -84,6 +108,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/classFour"/>
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeerClass4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
 
             </LinearLayout>
 
@@ -119,6 +166,30 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/classFive"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeerClass5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+
             </LinearLayout>
 
 
@@ -152,6 +223,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/classSix"/>
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeerClass6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
 
             </LinearLayout>
 
@@ -187,6 +281,29 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/classSeven"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeerClass7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
             </LinearLayout>
 
 
@@ -220,6 +337,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/classEight"/>
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeerClass8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
 
             </LinearLayout>
 
@@ -255,6 +395,29 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/classNineTen"/>
 
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeerClass9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
             </LinearLayout>
 
 
@@ -288,6 +451,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/otherPdfs"/>
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/shimeerClass10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+                        <include layout="@layout/simmer_load_ebook"/>
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
 
             </LinearLayout>
 

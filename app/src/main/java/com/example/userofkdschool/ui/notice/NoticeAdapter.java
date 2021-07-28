@@ -3,6 +3,8 @@ package com.example.userofkdschool.ui.notice;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.userofkdschool.FullImageView;
 import com.example.userofkdschool.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -22,6 +25,7 @@ import com.google.android.gms.tasks.Task;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NotiveViewAdapter> {
@@ -46,6 +50,8 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NotiveView
     @Override
     public void onBindViewHolder(@NonNull @NotNull NoticeAdapter.NotiveViewAdapter holder, int position) {
 
+
+
         NoticeData currentItem = list.get(position);
 
         holder.noticeTitle.setText(currentItem.getTitle());
@@ -58,6 +64,16 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NotiveView
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+
+        holder.noticeImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(context, FullImageView.class);
+                intent.putExtra("image",currentItem.getImage());
+                context.startActivity(intent);
+            }
+        });
 
     }
 
@@ -78,6 +94,8 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NotiveView
             noticeImage = itemView.findViewById(R.id.noticeImage);
             date = itemView.findViewById(R.id.date);
             time = itemView.findViewById(R.id.time);
+
+
         }
     }
 }

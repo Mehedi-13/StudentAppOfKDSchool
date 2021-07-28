@@ -89,7 +89,9 @@
             android:layout_height="wrap_content"
             android:text="Allah knows Everything."
             android:textSize="17sp"
+            android:autoLink="web"
             android:layout_marginVertical="@dimen/text_margin"
+            android:textIsSelectable="true"
             android:textColor="@color/textColor"/>
         <ImageView
             android:id="@+id/noticeImage"
