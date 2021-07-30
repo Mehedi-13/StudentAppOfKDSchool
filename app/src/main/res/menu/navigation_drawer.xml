@@ -17,6 +17,10 @@
         android:title="Website"
         android:icon="@drawable/website"/>
 
+    <item android:id="@+id/navigation_feedBack"
+        android:title="Feedback"
+        android:icon="@drawable/ic_feed_24"/>
+
     <item android:id="@+id/navigation_share"
         android:title="Share"
         android:icon="@drawable/share"/>
