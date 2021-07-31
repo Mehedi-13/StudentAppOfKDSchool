@@ -19,10 +19,13 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.userofkdschool.autentication.LoginActivity;
 import com.example.userofkdschool.ebook.EbookActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
 
 import java.util.Objects;
 
@@ -37,6 +40,7 @@ public class UserHomeActivity extends AppCompatActivity implements NavigationVie
     private  SharedPreferences.Editor editor;
     private int checkedItem;
     private String selected;
+    private FirebaseAuth auth;
 
     private final String CHECKEDITEM= "checked_item";
 
@@ -44,6 +48,8 @@ public class UserHomeActivity extends AppCompatActivity implements NavigationVie
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_home);
+
+        auth=FirebaseAuth.getInstance();
 
         sharedPreferences= this.getSharedPreferences("themes" , Context.MODE_PRIVATE);
         editor=sharedPreferences.edit();
@@ -130,13 +136,31 @@ public class UserHomeActivity extends AppCompatActivity implements NavigationVie
                 break;
 
             case R.id.navigation_logout:
-                Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
+                if (item.getItemId()==R.id.navigation_logout){
+
+                    auth.signOut();
+                    openLogin();
+                }
+
                 break;
 
 
         }
 
         return true;
+    }
+
+    private void openLogin() {
+    startActivity(new Intent(UserHomeActivity.this, LoginActivity.class));
+    finish();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (auth.getCurrentUser()== null){
+            openLogin();
+        }
     }
 
     private  void showDialog() {

@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.userofkdschool.autentication.LoginActivity;
+import com.example.userofkdschool.autentication.RegisterActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startActivity(new Intent(MainActivity.this,UserHomeActivity.class));
+        startActivity(new Intent(MainActivity.this, LoginActivity.class));
     }
 }

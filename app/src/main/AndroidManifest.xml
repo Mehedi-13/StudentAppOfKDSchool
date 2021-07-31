@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UserOfKDSchool">
-        <activity android:name=".FeedbackActivity"></activity>
+        <activity android:name=".autentication.ForgetPasswordActivity"></activity>
+        <activity android:name=".autentication.LoginActivity" />
+        <activity android:name=".autentication.RegisterActivity" />
+        <activity android:name=".FeedbackActivity" />
         <activity android:name=".FullImageView" />
         <activity android:name=".ebook.PdfViwerActivity" />
         <activity
